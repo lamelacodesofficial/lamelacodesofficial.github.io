@@ -1,0 +1,73 @@
+table{
+	border:5px solid #ADDFFF;
+	border-collapse: collapse;
+	background-color: WHITE;
+	margin: 10px auto;
+}
+		
+td,th {
+	border-collapse: collapse;
+	padding: 15px;
+	color: #ADDFFF;
+}
+
+.header{
+	font-family: 'Krona One', sans-serif;
+	font-size: 3.125em;
+}
+
+body {
+	font-family: 'Krona One', sans-serif;
+	font-size: 1.125em;
+}
+		
+input{
+	background-color:white;
+}
+		
+.details {
+	font-size: 24px;
+	font-family: 'Krona One', sans-serif;
+	text-decoration: 2px underline;
+}
+		
+textarea {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;		
+}	
+
+th {
+	color:#1F45FC;
+	font-family: 'Krona One', sans-serif;
+	font-size:30px;
+	text-shadow: 1px 1px cyan;
+}
+
+td {
+	font-family: 'Krona One', sans-serif;
+}
+		
+img {
+	height:200px;
+	width:400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+		
+.bold{
+	font-weight:bold;
+}
+		
+::placeholder {
+	color: #1F45FC;
+	opacity: 1;
+}
+
+.box input{
+	border: none;
+	border-bottom: 2px solid #1F45FC;
+	height: 100%;
+	width: 100%;
+}

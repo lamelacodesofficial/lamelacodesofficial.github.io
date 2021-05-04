@@ -1,0 +1,252 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <meta charset="utf-8" >
+    <title>Pizza Order Form</title>
+</head>
+
+<body style="background-image: url('LAMELA_IMAGES_ITBD/logocnc.png');">
+    <!--LAMELA, ALLANCYRIL-->
+    <!--05/04/21-->
+    <link rel="stylesheet" type="text/css" href="LAMELA_IMAGES_ITBD/orderform.css">
+	
+	<table style="background-image: url('LAMELA_IMAGES_ITBD/pizzagif.gif');">
+		<thead>
+			<th class="header" colspan="2">Pizza Order Form</th>
+			<td><img src="LAMELA_IMAGES_ITBD/logocnc.png"></td>
+			<tr>
+				<th class="details" colspan="3">Customer Details</th>
+			</tr>
+		</thead>
+		
+		<tbody>
+			<tr>
+				<td class="bold" colspan=3><label for="name">Full Name:</label></td>
+			</tr>
+			
+			<td class="box" colspan=2 style="text-align: center;" ><input type="text" name="first" size="30" placeholder="First Name" maxlength="50"></td>
+			<td class="box"><input type="text" name="last" size="30" placeholder="Last Name" maxlength="50"></td>
+			
+			<tr>
+				<td class="bold"><label>Contact Number:</label></td>
+				<td class="bold" colspan=2><label>&nbsp;Email Address:</label></td>
+			</tr>
+			
+			<td class="box" colspan=2 style="text-align: center;"><input type="text" size="30" placeholder="Contact Number" maxlength="50"></td>
+			<td class="box" ><input type="text" size="30" placeholder="Email address" maxlength="50"></td>
+			
+			<tr>
+				<td class="bold" colspan=3 style="text-align: center;"><label>Complete Address:</label></td>
+			</tr>
+			<td class="box" colspan=3 style="text-align: center;"><input type="text" size="30" placeholder="Home Address" maxlength="50"></td>
+			
+			<tr>
+				<td colspan=3 class="bold" style="text-align: center;><label for="name">How to get there?:</label></td>
+			</tr>
+			<td class="area" colspan=3><textarea rows="4" cols="50"></textarea></td>
+			
+			<!-- Order details-->
+			
+			<tr><th class="details" colspan=3>||| Order Details |||</th></tr>
+			
+			<tr>
+				<tr>
+				<td colspan="3" style="text-align: center;"><label>Choose your order(s): &nbsp;&nbsp;&nbsp;</label>
+					<input type="checkbox">
+						<label>Burgers</label>
+					<input type="checkbox">
+						<label>Pasta</label><br>
+					<input type="checkbox">
+						<label>Fries</label>
+					<input type="checkbox">
+						<label>Drinks</label>
+				</td>
+				</tr>
+				<tr><th colspan="3"></th></tr>
+				
+				<tr><th class="details" colspan="3">*BURGERS*</th></tr>
+				<tr><th colspan="3"></th></tr>
+				
+				<tr>
+					<td colspan="3"><img src="LAMELA_IMAGES_ITBD/bargers.png"></td>
+				</tr>
+				<tr><th colspan="3"></th></tr>
+				
+				<td colspan="3" style="text-align: center;"><label>Type of Patties: &nbsp;&nbsp;&nbsp;</label>
+					<select size="1">
+						<option value="single">Single Patty</option>
+						<option value="double">Double Patty</option>
+						<option value="triple">Triple Patty</option>
+						<option value="event">Monster Patty</option>
+					</select>
+					</tr>
+				</td>
+				
+				
+				<td colspan="3" style="text-align: center;"><option value="double"></option><label>Burger Add-ons: &nbsp;&nbsp;&nbsp;</label>
+					<input type="checkbox">
+						<label>Bacon</label>
+					<input type="checkbox">
+						<label>Cheese</label>
+					<input type="checkbox">
+						<label>Coleslaw</label><br>
+					<input type="checkbox">
+						<label>Cucumber</label>
+					<input type="checkbox">
+						<label>Onion</label>
+					<input type="checkbox">
+						<label>Tomato</label>
+				</td>
+				
+			</tr>
+				
+			<td colspan="3" style="text-align: center;"><label>Quantity: &nbsp;&nbsp;&nbsp;</label><input type="text" size="3" ></td>
+			<tr><th colspan="3"></th></tr>
+			
+			<tr><th class="details" colspan="3">*PASTA*</th></tr>
+			<tr><th colspan="3"></th></tr>
+			
+			<tr>
+				<td colspan="3"><img src="LAMELA_IMAGES_ITBD/pasta.png"></td>
+			</tr>
+			<tr><th colspan="3"></th></tr>
+			<tr><th colspan="3"></th></tr>
+			
+			<tr>
+				<td colspan="3" style="text-align: center;"><label">Pasta: &nbsp;&nbsp;&nbsp;</label>
+					<select size="1">
+						<option>Carbonara</option>
+						<option>Pesto</option>
+						<option>Spaghetti</option>
+					</select>
+					</tr>
+				</td>
+			</tr>
+			
+			<tr>
+				<td colspan="3" style="text-align: center;"><label>Pasta Add-ons:&nbsp;&nbsp;&nbsp;</label>
+					<input type="checkbox">
+						<label>Extra cheese</label>
+					<input type="checkbox">
+						<label>Extra Sauce</label></td>
+			</tr>
+			
+			<tr>			
+				<td colspan="3" style="text-align: center;"><label>Other add-ons: &nbsp;&nbsp;&nbsp;</label><input type="text" size="10" ></td>
+			</tr>
+				
+			<td colspan="3" style="text-align: center;"><label>Quantity per box: &nbsp;&nbsp;&nbsp;</label><input type="text" size="2" ></td>
+			<tr><th colspan="3"></th></tr>
+			<tr><th colspan="3"></th></tr>
+
+			
+			<tr><th class="details" colspan="3">*FRIES*</th></tr>
+			<tr><th colspan="3"></th></tr>
+			
+			<tr>
+				<td colspan="3" style="text-align: center;"><img src="LAMELA_IMAGES_ITBD/fries.png"></td>
+			</tr>
+			<tr><th colspan="3"></th></tr>
+			
+			
+			<tr>
+				<td colspan="3" style="text-align: center;"><label>Fries Size: &nbsp;&nbsp;&nbsp;</label>
+					<input type="radio">
+						<label>S</label>
+					<input type="radio">
+						<label>M</label>
+					<input type="radio">
+						<label>L</label>
+				</td>
+			</tr>
+			
+			<tr>
+				<td colspan="3" style="text-align: center;"><label">Flavor: &nbsp;&nbsp;&nbsp;</label>
+					<select size="1">
+						<option>Barbeque</option>
+						<option>Cheese</option>
+						<option>Sour & Cream</option>
+					</select>
+				</td>
+			</tr>
+			
+			<td colspan="3" style="text-align: center;"><label>Quantity: &nbsp;&nbsp;&nbsp;</label><input type="text" size="2" ></td>
+			<tr><th colspan="3"></th></tr>
+			<tr><th colspan="3"></th></tr>
+			
+			<tr><th class="details" colspan="3">*DRINKS*</th></tr>
+			<tr><th colspan="3"></th></tr>
+
+			<tr>
+					<td colspan="3"><img src="LAMELA_IMAGES_ITBD/drinks.png"></td>
+			</tr>
+			
+			<tr><th colspan="3"></th></tr>
+			
+			<tr>
+				<td colspan="3" style="text-align: center;"><label>Drinks:&nbsp;&nbsp;&nbsp;</label>
+					<select size="1">
+						<option>Coke Zero</option>
+						<option>Root Beer</option>
+						<option>Sarsi</option>
+						<option>Nestea</option>
+						<option>Coke</option>
+						<option>Sprite</option>
+					</select>
+					</tr>
+				</td>
+			</tr>
+			
+			<tr>
+				<td colspan="3" style="text-align: center;"><label>Drinks Size: &nbsp;&nbsp;&nbsp;</label>
+					<input type="radio">
+						<label>S</label>
+					<input type="radio">
+						<label>M</label>
+					<input type="radio">
+						<label>L</label>
+				</td>
+			</tr>
+			<tr><th colspan="3"></th></tr>
+			
+			<tr><th colspan="3"><hr size="3" color="#ADDFFF" align="center" width="100%"></th></tr>
+			<td class="bold" colspan="3" style="text-align: center;">!!! FEEDBACK !!!</td>
+			<tr>
+				<td colspan="3" style="text-align: center;"><label for="name">Help us improve our order form by indicating your feedback!</label></td>
+			</tr>
+			<td colspan=3><textarea rows="4" cols="50"></textarea></td>
+			<tr><th colspan="3"><hr size="3" color="#ADDFFF" align="center" width="100%"></th></tr>
+			
+		</tbody>
+	
+			<tr>
+				<tr><th colspan="3"></th></tr>
+				<td style="text-align: right;"><label for="gender">Getting the order:</label></td>
+				<td colspan="2" style="text-align: left;">
+					<input type="radio" id="pickup" name="order" value="male">
+						<label for="male">Pick-up</label><br>
+					<input type="radio" id="delivery" name="order" value="male">
+						<label for="male">Delivery</label>
+				</td>
+			</tr>
+	
+	
+			<tfoot>
+				<tr>
+					<tr><th colspan=3></th></tr>
+					<tr><th colspan=3></th></tr>
+					<th colspan="3"><input type="submit" id="btn1" value="Submit Form"><input type="reset" id="btn1" value="Clear Form"></th>
+
+					<tr><th colspan=3></th></tr>
+					<tr><th colspan=3></th></tr>
+					<tr><th colspan=3 style="background-color: #ADDFFF;">THANK YOU FOR ODERING! ENJOY THE FOOD!</th></tr>					
+				</tr>
+			</tfoot>
+			
+	</table>
+
+
+</body>
+</html>
